@@ -225,8 +225,12 @@ textarea {
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
   /* Hero Area */
-  
+ 
   .hero-area {
+    background: url(../img/unplugged-retreat.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -278,6 +282,9 @@ textarea {
   /* Features */
   
   .features {
+    background: url('../img/unplugged-retreat-features.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -815,3 +822,4 @@ textarea {
     h3 {
       page-break-after: avoid;
     }
+  }
