@@ -138,10 +138,8 @@
     font-size: .875em;
     line-height: 1.285;
   }
+ 
   
-  img {
-    border-style: none;
-  }
    
   img {
    width: 100%;
@@ -674,7 +672,21 @@
     .contact-content h4 {
       font-size: 1.5em;
     }
-  
+    .map figure {
+      width: 100%;
+      height: 0; 
+      padding-bottom: 125%; 
+      overflow: hidden;
+      position: relative;
+  }
+   
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+  }
     /* ==========================================================================
      FAQ Page
      ========================================================================== */
