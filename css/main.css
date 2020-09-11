@@ -224,6 +224,7 @@
   
   footer p {
     margin: 0;
+    
   }
   
   footer .content-wrapper {
@@ -245,6 +246,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #95a2db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  footer .social p i {
+    font-size: 1.5em;
+   
   }
   
   footer .copyright {
@@ -335,7 +345,7 @@
     align-items: center;
     flex-flow: row wrap;
   }
-  
+
   .features i {
     font-size: 3.75em;
     margin-bottom: 40px;
